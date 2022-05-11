@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+body{
+    background-image: url(dark\ krishna.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+*{
+    box-sizing: border-box;
+    /* background-color: grey; */
+    
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+button{
+
+    font-family: 'Tapestry', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 5px 18px;
+    border: 2px solid rgb(255, 254, 254);
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+button:hover{
+    color: rgb(34, 113, 188);
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    font-family: 'Tapestry', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    list-style: none;
+}
+
+a:hover{
+    color: rgb(34, 113, 188);
+}
+
+
+
+
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 9px;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+ li{
+     
+    font-family: 'Tapestry', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(12, 2, 2);
+    list-style: none;
+    display: inline-block;
+    padding: 0px 34px;
+    margin: 0px 51px;
+}
+
